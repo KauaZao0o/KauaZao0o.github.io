@@ -319,12 +319,14 @@ main {
   /* _____________________________________________________Responsividade_____________________________________________________ */
 
   /* index.html */
-@media (max-width: 660px) {
-  .links {
-    padding: 5px; /* Ajusta o espaçamento interno */
-    flex-direction: column; /* Links empilhados verticalmente */
-    gap: 8px; /* Menor espaçamento */
-  }
+  @media (max-width: 660px) {
+    .links {
+      padding: 5px; /* Ajusta o espaçamento interno */
+      flex-direction: column; /* Links empilhados verticalmente */
+      gap: 8px; /* Menor espaçamento */
+      z-index: 10; /* Garante que os links estejam na frente */
+      position: relative; /* Necessário para o z-index funcionar */
+    }
 
   .links h2 {
     line-height: 1.2; /* Ajusta o espaçamento entre linhas */
