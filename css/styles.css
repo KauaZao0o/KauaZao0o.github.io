@@ -125,6 +125,38 @@ main {
   z-index: -1;
 }
 
+/* theme-toggle.js */
+
+/* Tema claro */
+body.light {
+  background: #f2f2f2;
+  color: #222;
+}
+
+body.light .info {
+  background: #ffffff90;
+}
+
+body.light h1, 
+body.light h2 {
+  color: #222;
+}
+
+/* Estilo do botão de tema */
+#theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: inherit;
+}
+
+#theme-toggle:focus {
+  outline: 2px solid #555;
+}
 
 
 /* ____________________________________________Portfólio____________________________________________ */
@@ -319,14 +351,14 @@ main {
   /* _____________________________________________________Responsividade_____________________________________________________ */
 
   /* index.html */
-  @media (max-width: 660px) {
-    .links {
-      padding: 5px; /* Ajusta o espaçamento interno */
-      flex-direction: column; /* Links empilhados verticalmente */
-      gap: 8px; /* Menor espaçamento */
-      z-index: 10; /* Garante que os links estejam na frente */
-      position: relative; /* Necessário para o z-index funcionar */
-    }
+@media (max-width: 660px) {
+  .links {
+    padding: 5px; /* Ajusta o espaçamento interno */
+    flex-direction: column; /* Links empilhados verticalmente */
+    gap: 8px; /* Menor espaçamento */
+    z-index: 10; /* Garante que os links estejam na frente */
+    position: relative; /* Necessário para o z-index funcionar */
+  }
 
   .links h2 {
     line-height: 1.2; /* Ajusta o espaçamento entre linhas */
