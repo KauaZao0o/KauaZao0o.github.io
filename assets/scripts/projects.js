@@ -5,14 +5,14 @@ const projects = [
         link: "https://github.com/KauaZao0o/SoluTech"
     },
     {
-        name: "Projeto 2",
-        description: "Em desenvolvimento",
-        link: "https://github.com/KauaZao0o"
+        name: "Calculator in different programming languages",
+        description: "The goal is to develop a fully functional and responsive calculator with an intuitive interface, featuring advanced capabilities such as percentage calculations, factorials, inverse operations, and history management. This project aims to explore various technologies and frameworks for implementing both the graphical interface and mathematical logic.",
+        link: "https://github.com/KauaZao0o/Calculator"
     },
     {
-        name: "Projeto 3",
-        description: "Em desenvolvimento",
-        link: "https://github.com/KauaZao0o"
+        name: "E-Commerce - Motors-Commerce",
+        description: "The Motors-Commerce project is a clean and modern e-commerce platform for vehicle sales, built with only HTML and CSS to ensure a lightweight and optimized user experience. It focuses on an intuitive interface, responsive design, and well-structured content presentation.",
+        link: "https://github.com/KauaZao0o/Motors-Commerce"
     }
 ];
 
