@@ -1,3 +1,7 @@
+html, body {
+  flex-direction: column;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -159,7 +163,7 @@ body.light h2 {
 }
 
 /* Rodapé */
-.footer {
+.footer-projects {
   text-align: center;
   padding: 10px;
 }
