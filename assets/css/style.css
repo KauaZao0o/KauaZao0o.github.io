@@ -159,10 +159,9 @@ body.light h2 {
 }
 
 /* Rodapé */
-footer {
-  color: #ffffff;
+.footer {
   text-align: center;
-  padding: 16px;
+  padding: 10px;
 }
 
   /* _____________________________________________________Links_____________________________________________________ */
@@ -244,16 +243,19 @@ body.light .social-icon:hover {
 }
 
 .social-link {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente a imagem e o texto */
+  justify-content: center; /* Centraliza horizontalmente o conteúdo */
+  gap: 10px; /* Espaçamento entre a imagem e o texto */
+  padding: 15px 30px; /* Espaçamento interno do botão */
   background: #00000060;
   color: #38bdaeaa;
-  padding: 15px 30px;
   text-decoration: none;
   border-radius: 30px;
-  text-align: center;
-  transition: all 0.3s ease;
   border: 1px solid #38bdae55;
   backdrop-filter: blur(5px);
   font-size: 1.1em;
+  transition: all 0.3s ease;
 }
 
 .social-link:hover {
@@ -262,9 +264,19 @@ body.light .social-icon:hover {
   box-shadow: 0 5px 15px #00000040;
 }
 
-  /* _____________________________________________________Projects_____________________________________________________ */
-  
+.social-link img {
+  width: 40px; /* Tamanho fixo para as imagens */
+  height: 40px; /* Tamanho fixo para as imagens */
+  object-fit: cover; /* Garante que a imagem cubra o espaço sem distorcer */
+}
 
+/* Centraliza o texto em relação à imagem */
+.social-link span {
+  display: flex;
+  align-items: center; /* Centraliza verticalmente o texto */
+}
+
+  /* _____________________________________________________Projects_____________________________________________________ */
 
   .body-projects {
     display: flex;
@@ -545,7 +557,6 @@ body.light .social-icon:hover {
   margin-right: 10px;
 }
 
-
   /* _____________________________________________________Responsividade_____________________________________________________ */
 
   /* index.html */
@@ -664,7 +675,6 @@ body.light .social-icon:hover {
     }
   }
 
-
   /* projects.html */
   @media (max-width: 768px) {
     .hacker-title {
@@ -725,10 +735,7 @@ body.light .social-icon:hover {
     .skills-box i {
       font-size: 60px;
     }
-  
   }
-
-
 
   /* Keyframes do index.html */
   @keyframes typing {
