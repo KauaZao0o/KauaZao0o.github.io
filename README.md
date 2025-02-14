@@ -1,1 +1,1 @@
-﻿# [kauazao0o.github.io](https://kauazao0o.github.io/)
+# [kauazao0o.github.io](https://kauazao0o.github.io/)
